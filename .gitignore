@@ -1,0 +1,37 @@
+# Ignore data files
+*.csv
+*.xlsx
+*.json
+*.txt
+*.rar
+*.zip
+/data
+/Project
+!requirements.txt
+/extracted
+
+# Ignore model files
+*.h5
+*.pkl
+
+# Ignore notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment
+venv/
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore environment file
+.env
+
+# Ignore old folders
+old/
